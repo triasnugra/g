@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Prompt Grok</title>
+  <title>Prompt Generator @eliz883</title>
   <style>
     :root {
       --bg-color: #f8fafc;
@@ -68,10 +68,10 @@
     }
 
     .card-title {
-      font-size: 0.9rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      letter-spacing: 0.02em;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--accent);
+      letter-spacing: 0.01em;
     }
 
     .copy-btn {
@@ -125,7 +125,7 @@
       <!-- KOLOM 1 -->
       <section class="card">
         <div class="card-header">
-          <span class="card-title">Kolom 1</span>
+          <h2 class="card-title">1. Prompt Utama (Template Tanggal)</h2>
           <button class="copy-btn" onclick="copyText('content-1', this)">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <span>Copy</span>
@@ -135,67 +135,67 @@
 <span class="highlight-red">Rentang tanggal: [ISI TANGGAL, contoh: 20–25 November 2026]</span>
 (Termasuk postingan penting sebelumnya jika sangat relevan, misalnya analisis level BTC atau $NVDA yang masih dibahas).
 ### ATURAN KETAT KONTEN:
-HANYA ambil postingan yang membahas analisis harga, level support/resistance, strategi trading (spot buy dips, stop-loss, price action, trigger, invalidation, liquidity, long/short/scalp, range, breakout, retest, dll).
-JANGAN masukkan postingan curhat, toxic, meme, pure commentary %, atau yang tidak terkait trading.
-Tampilkan teks postingan secara LENGKAP dan UTUH (jangan dipotong).
-Urutkan dari yang TERBARU ke TERLAMA.
-Format tanggal sesuai yang muncul di X (contoh: 5:18 PM · Nov 25, 2026).
+1. HANYA ambil postingan yang membahas analisis harga, level support/resistance, strategi trading (spot buy dips, stop-loss, price action, trigger, invalidation, liquidity, long/short/scalp, range, breakout, retest, dll).
+2. JANGAN masukkan postingan curhat, toxic, meme, pure commentary %, atau yang tidak terkait trading.
+3. Tampilkan teks postingan secara LENGKAP dan UTUH (jangan dipotong).
+4. Urutkan dari yang TERBARU ke TERLAMA.
+5. Format tanggal sesuai yang muncul di X (contoh: 5:18 PM · Nov 25, 2026).
 ### ATURAN TEKNIS GAMBAR (SANGAT PENTING):
-WAJIB download gambar asli dari URL media X (pbs.twimg.com).
-Embed gambar langsung ke dalam dokumen menggunakan ImageRun (bukan hyperlink / bukan “[chart]”).
-Gambar harus terlihat tajam dan jelas (bukan buram).
-PERTAHANKAN RASIO ASLI gambar (banyak chart dari akun ini berbentuk portrait/tinggi). Jangan memaksa rasio landscape.
-Ukuran tampilan wajar: lebar sekitar 450–500px, tinggi menyesuaikan rasio asli agar tidak terdistorsi.
+1. WAJIB download gambar asli dari URL media X (pbs.twimg.com).
+2. Embed gambar langsung ke dalam dokumen menggunakan ImageRun (bukan hyperlink / bukan “[chart]”).
+3. Gambar harus terlihat tajam dan jelas (bukan buram).
+4. PERTAHANKAN RASIO ASLI gambar (banyak chart dari akun ini berbentuk portrait/tinggi). Jangan memaksa rasio landscape.
+5. Ukuran tampilan wajar: lebar sekitar 450–500px, tinggi menyesuaikan rasio asli agar tidak terdistorsi.
 ### STRUKTUR DOKUMEN::
-Judul di tengah (bold): Postingan Trading @eliz883 | [Rentang Tanggal]
-1–2 kalimat penjelasan singkat di awal.
-Setiap postingan diawali dengan tanggal sebagai heading (bold + garis bawah tipis warna brass #d6a45c).
-Teks lengkap postingan.
-Gambar/chart langsung tertanam di bawah postingan yang punya media.
-Header: EliZ (@eliz883) • Italian Crypto Trader & Investor • [Rentang Tanggal]
-Footer: nomor halaman + “Sumber: X @eliz883 | Hanya analisis trading | Bukan saran keuangan”
-Font: Arial
-Layout bersih, margin cukup (~0.7 inch)
+1. Judul di tengah (bold): Postingan Trading @eliz883 | [Rentang Tanggal]
+2. 1–2 kalimat penjelasan singkat di awal.
+3. Setiap postingan diawali dengan tanggal sebagai heading (bold + garis bawah tipis warna brass #d6a45c).
+4. Teks lengkap postingan.
+5. Gambar/chart langsung tertanam di bawah postingan yang punya media.
+6. Header: EliZ (@eliz883) • Italian Crypto Trader & Investor • [Rentang Tanggal]
+7. Footer: nomor halaman + “Sumber: X @eliz883 | Hanya analisis trading | Bukan saran keuangan”
+8. Font: Arial
+9. Layout bersih, margin cukup (~0.7 inch)
 ### CARA KERJA YANG HARUS DILAKUKAN:
-Gunakan tool X search (from:eliz883) untuk mengambil postingan asli.
-Download semua media/chart yang relevan.
-Filter hanya postingan analisis trading.
-Embed gambar dengan rasio asli (hitung height berdasarkan width × original_ratio).
-Hasil akhir harus berupa file .docx siap download dengan gambar sudah tertanam di dalamnya.
-Hasilkan file .docx siap download.</div>
+1. Gunakan tool X search (from:eliz883) untuk mengambil postingan asli.
+2. Download semua media/chart yang relevan.
+3. Filter hanya postingan analisis trading.
+4. Embed gambar dengan rasio asli (hitung height berdasarkan width × original_ratio).
+5. Hasil akhir harus berupa file .docx siap download dengan gambar sudah tertanam di dalamnya.
+6. Hasilkan file .docx siap download.</div>
       </section>
 
       <!-- KOLOM 2 -->
       <section class="card">
         <div class="card-header">
-          <span class="card-title">Kolom 2</span>
+          <h2 class="card-title">2. Prompt Spesifik (20–24 November 2026)</h2>
           <button class="copy-btn" onclick="copyText('content-2', this)">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <span>Copy</span>
           </button>
         </div>
         <div class="card-body" id="content-2">Buatkan file DOCX profesional berisi postingan trading crypto dari akun X @eliz883. <span class="highlight-red">Rentang tanggal: 20–24 November 2026</span> (Termasuk postingan penting sebelumnya jika sangat relevan, misalnya analisis level BTC atau $NVDA yang masih dibahas). Aturan ketat:
-Hanya ambil postingan yang membahas analisis harga, level support/resistance, strategi trading (spot buy dips, stop-loss, price action, trigger, invalidation, liquidity, dll).
-Jangan masukkan postingan curhat, toxic, meme, pure commentary %, atau yang tidak terkait trading.
-Tampilkan teks postingan secara lengkap dan utuh (jangan dipotong).
-WAJIB: Jika ada media/chart/foto, download gambar aslinya dari URL media X (pbs.twimg.com) lalu embed/sisipkan gambar tersebut secara langsung di dalam dokumen Word di bawah teks postingan yang bersangkutan menggunakan ImageRun / insert image. Jangan hanya menaruh link atau menulis “[chart]”. Gambar harus benar-benar terlihat di dalam file .docx.
-Format tanggal sesuai yang muncul di X (contoh: 10:42 PM · Nov 23, 2026 atau 3:43 PM · Nov 23, 2026).
-Urutkan dari yang terbaru ke terlama.
-Buat dalam bentuk dokumen Word (.docx) yang rapi, siap dibuka di Word/Google Docs/PDF.
+1. Hanya ambil postingan yang membahas analisis harga, level support/resistance, strategi trading (spot buy dips, stop-loss, price action, trigger, invalidation, liquidity, dll).
+2. Jangan masukkan postingan curhat, toxic, meme, pure commentary %, atau yang tidak terkait trading.
+3. Tampilkan teks postingan secara lengkap dan utuh (jangan dipotong).
+4. WAJIB: Jika ada media/chart/foto, download gambar aslinya dari URL media X (pbs.twimg.com) lalu embed/sisipkan gambar tersebut secara langsung di dalam dokumen Word di bawah teks postingan yang bersangkutan menggunakan ImageRun / insert image. Jangan hanya menaruh link atau menulis “[chart]”. Gambar harus benar-benar terlihat di dalam file .docx.
+5. Format tanggal sesuai yang muncul di X (contoh: 10:42 PM · Nov 23, 2026 atau 3:43 PM · Nov 23, 2026).
+6. Urutkan dari yang terbaru ke terlama.
+7. Buat dalam bentuk dokumen Word (.docx) yang rapi, siap dibuka di Word/Google Docs/PDF.
 Struktur dokumen yang diinginkan:
-Judul jelas di tengah: <span class="highlight-red">Postingan Trading @eliz883 | 20–24 November 2026</span>
-Penjelasan singkat di awal (1–2 kalimat)
-Setiap postingan diawali dengan tanggal sebagai heading (bold)
-Teks lengkap postingan
-Gambar/chart langsung tertanam di bawah postingan yang punya media (ukuran wajar ~450–500px, jelas terbaca)
-Header berisi: EliZ (@eliz883) • Italian Crypto Trader & Investor • 20–24 Nov 2026
-Footer berisi nomor halaman + “Sumber: X @eliz883 | Hanya analisis trading | Bukan saran keuangan”
-Gunakan font Arial, layout bersih, margin cukup. PENTING TEKNIS:
-Gunakan tool X search (from:eliz883) untuk mengambil postingan asli.
-Download semua media/chart yang ada menggunakan URL pbs.twimg.com.
-Embed gambar ke dalam dokumen menggunakan ImageRun (bukan hyperlink).
-Hasil akhir harus berupa file .docx yang bisa di-download, dengan gambar sudah tertanam di dalamnya.
-Hasilkan file .docx siap download.</div>
+1. Judul jelas di tengah: <span class="highlight-red">Postingan Trading @eliz883 | 20–24 November 2026</span>
+2. Penjelasan singkat di awal (1–2 kalimat)
+3. Setiap postingan diawali dengan tanggal sebagai heading (bold)
+4. Teks lengkap postingan
+5. Gambar/chart langsung tertanam di bawah postingan yang punya media (ukuran wajar ~450–500px, jelas terbaca)
+6. Header berisi: EliZ (@eliz883) • Italian Crypto Trader & Investor • 20–24 Nov 2026
+7. Footer berisi nomor halaman + “Sumber: X @eliz883 | Hanya analisis trading | Bukan saran keuangan”
+8. Gunakan font Arial, layout bersih, margin cukup. PENTING TEKNIS:
+1. Gunakan tool X search (from:eliz883) untuk mengambil postingan asli.
+2. Download semua media/chart yang ada menggunakan URL pbs.twimg.com.
+3. Embed gambar ke dalam dokumen menggunakan ImageRun (bukan hyperlink).
+4. Hasil akhir harus berupa file .docx yang bisa di-download, dengan gambar sudah tertanam di dalamnya.
+5. Hasilkan file .docx siap download.</div>
       </section>
 
     </div>
