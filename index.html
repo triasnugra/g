@@ -32,17 +32,17 @@
     }
 
     .container {
-      max-width: 1200px;
+      max-width: 1440px;
       margin: 0 auto;
     }
 
     .grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.25rem;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       .grid {
         grid-template-columns: 1fr;
       }
@@ -65,10 +65,11 @@
       padding: 1rem 1.25rem;
       border-bottom: 1px solid var(--border-color);
       background-color: #fcfcfd;
+      gap: 0.5rem;
     }
 
     .card-title {
-      font-size: 1.05rem;
+      font-size: 1rem;
       font-weight: 700;
       color: var(--accent);
       letter-spacing: 0.01em;
@@ -86,6 +87,7 @@
       font-size: 0.85rem;
       font-weight: 500;
       cursor: pointer;
+      flex-shrink: 0;
       transition: background-color 0.2s ease, transform 0.1s ease;
     }
 
@@ -209,6 +211,18 @@ PENTING TEKNIS:
 3. Embed gambar ke dalam dokumen menggunakan ImageRun (bukan hyperlink).
 4. Hasil akhir harus berupa file .docx yang bisa di-download, dengan gambar sudah tertanam di dalamnya.
 5. Hasilkan file .docx siap download.</div>
+      </section>
+
+      <!-- KOLOM 3 -->
+      <section class="card">
+        <div class="card-header">
+          <h2 class="card-title">3. Prompt Deploy GitHub Actions (.zip)</h2>
+          <button class="copy-btn" onclick="copyText('content-3', this)">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <span>Copy</span>
+          </button>
+        </div>
+        <div class="card-body" id="content-3">Buat full codingnya (berupa .zip), aku tinggal copy paste/upload di repo github. Dideploy, di-run dan dipublish menggunakan Github Actions.</div>
       </section>
 
     </div>
